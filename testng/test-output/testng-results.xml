@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10438" started-at="2020-02-14T11:53:56Z" finished-at="2020-02-14T11:54:06Z">
+    <groups>
+      <group name="login">
+        <method signature="testngcls.f1()[pri:1, instance:testngpack.testngcls@ee68d8]" name="f1" class="testngpack.testngcls"/>
+        <method signature="testngcls.f2()[pri:2, instance:testngpack.testngcls@ee68d8]" name="f2" class="testngpack.testngcls"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Default test" duration-ms="10438" started-at="2020-02-14T11:53:56Z" finished-at="2020-02-14T11:54:06Z">
+      <class name="testngpack.testngcls">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngpack.testngcls@ee68d8]" name="beforeMethod" is-config="true" duration-ms="4249" started-at="2020-02-14T11:53:56Z" finished-at="2020-02-14T11:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:1, instance:testngpack.testngcls@ee68d8]" name="f1" duration-ms="1475" started-at="2020-02-14T11:54:00Z" finished-at="2020-02-14T11:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngpack.testngcls@ee68d8]" name="afterMethod" is-config="true" duration-ms="158" started-at="2020-02-14T11:54:01Z" finished-at="2020-02-14T11:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testngpack.testngcls@ee68d8]" name="beforeMethod" is-config="true" duration-ms="3745" started-at="2020-02-14T11:54:02Z" finished-at="2020-02-14T11:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:2, instance:testngpack.testngcls@ee68d8]" name="f2" duration-ms="621" started-at="2020-02-14T11:54:05Z" finished-at="2020-02-14T11:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testngpack.testngcls@ee68d8]" name="afterMethod" is-config="true" duration-ms="144" started-at="2020-02-14T11:54:06Z" finished-at="2020-02-14T11:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testngpack.testngcls -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
